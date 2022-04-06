@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#F0E68C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#contenedor{
+    width: 1200px;
+    height: 700px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    
+}
+
+#izquierdo{
+    height: 90%;
+    width: 35%;
+    float: left;
+    margin-top: 2em;
+      
+}
+
+#derecho{
+    height: 100%;
+    width: 65%;
+    float: right;
+    margin-top: 0.5em;
+   
+}
+
+.imagen1{
+    text-align: center;
+
+
+}
+
+.imagen2{
+    text-align: center;
+    margin-top: 2.5em;
+
+}
+
+.imagen3{   
+    text-align: center;
+    display: flex;
+    
+    overflow: hidden;
+}
+
+.part{
+    
+     margin-top: 2.5em;  
+      
+        float: left;
+}
+
+#item1{
+   
+    text-align: right;
+}
+
+#item2{
+    margin-left: 2em;
+    margin-right: 2em;
+}
